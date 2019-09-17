@@ -5,23 +5,22 @@ spring-boot-exception-handler with rest controller-postman
 # output
 
 #### localhost:8080/vote/10
-
-{
-    "timestamp": {
-        "dayOfMonth": 17,
-        "dayOfWeek": "TUESDAY",
-        "dayOfYear": 260,
-        "month": "SEPTEMBER",
-        "monthValue": 9,
-        "year": 2019,
-        "hour": 9,
-        "minute": 58,
-        "nano": 6000000,
-        "second": 12,
-        "chronology": {
-            "id": "ISO",
-            "calendarType": "iso8601"
-        }
+    {
+        "timestamp": {
+            "dayOfMonth": 17,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 260,
+            "month": "SEPTEMBER",
+            "monthValue": 9,
+            "year": 2019,
+            "hour": 9,
+            "minute": 58,
+            "nano": 6000000,
+            "second": 12,
+            "chronology": {
+                "id": "ISO",
+                "calendarType": "iso8601"
+            }
     },
     "status": 404,
     "error": "Age is not valid for voting for this System..try after some years..!!!"
