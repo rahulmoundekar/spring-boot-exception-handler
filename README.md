@@ -1,10 +1,10 @@
 # spring-boot-exception-handler
 spring-boot-exception-handler with rest controller-postman
 
-## run on postman or directly in client (chrome)
+## run on postman or directly on client (chrome)
 # output
 
-localhost:8080/vote/10
+#### localhost:8080/vote/10
 
 {
     "timestamp": {
@@ -27,7 +27,7 @@ localhost:8080/vote/10
     "error": "Age is not valid for voting for this System..try after some years..!!!"
 }
 
-localhost:8080/vote/20
+#### localhost:8080/vote/20
     Your age is valid for For this System
 
 
